@@ -1,2 +1,2 @@
 # What2play
-### Game Reviews, Recommendations, and Tutorials
+### Game Reviews, Recommendations, and Tutorialz
