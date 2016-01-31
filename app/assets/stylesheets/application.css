@@ -19,8 +19,10 @@
 a{
 	color:#FFFFFF;
 	font-size: 20px;
-	margin: 20px;
-	font-style:none;
+	text-decoration: none;
+	padding-top: 15px;
+	display:inline-block;
+	padding-left:20px;
 
 }
 
