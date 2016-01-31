@@ -50,7 +50,7 @@ nav{
 body{
 	margin: 0;
 	padding: 0;
-	background: #000000;
+	background: #FFFFFF;
 	color:white;
 }
 
@@ -62,4 +62,7 @@ img{
 	margin-bottom: 20px;
 	width: 475px;
 	height:250;
+
 }
+
+
