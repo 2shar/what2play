@@ -17,6 +17,9 @@
 /* ^DONT DELETE THIS STUFF^ */
 
 a{
+	color:white;
+}
+a.navlink{
 	color:#FFFFFF;
 	font-size: 30px;
 	text-decoration: none;
