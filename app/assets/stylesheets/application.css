@@ -23,7 +23,7 @@ a.navlink{
 	color:#FFFFFF;
 	font-size: 30px;
 	text-decoration: none;
-	padding-top: 30px;
+	padding-top: 34px;
 	display:inline-block;
 	padding-left:20px;
 	font-family: 'Inconsolata';
@@ -31,7 +31,14 @@ a.navlink{
 
 
 h3{
-	color: black;
+	color: white;
+	background-color:#FF6633;
+	margin-right: 1025px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 8px;
+
+
 }
 
 
