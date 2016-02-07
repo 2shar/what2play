@@ -27,19 +27,26 @@ a{
 	display:inline-block;
 	padding-left:20px;
 	font-family: 'Inconsolata';
+	padding-right:10px;
 }
 
 .navlink input{
-	height: 20px;
+	height: 30px;
 background: #FFFFFF;
 border-radius: 10px;
 margin-left: 0px;
 padding: 0px;
+width:175px;
+border-color:#FFFFFF;
 }
 
 form.navlink{
 	padding-left:0px;
-	padding-top:0px;
+	padding-top:34px;
+}
+.login{
+	float:right;
+	padding-right: 50px;
 }
 
 
