@@ -30,15 +30,6 @@ a.navlink{
 }
 
 
-h3{
-	color: white;
-	background-color:#FF6633;
-	/*margin-right: 1025px;*/
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 8px;
-}
-
 
 
 
@@ -47,8 +38,11 @@ h3{
 nav{
 	background: #333333;
 	position: fixed;
+	top: 0;
+	left: 0;
 	height: 100px;
 	width: 100%;
+
 
 }
 
@@ -75,6 +69,12 @@ body{
 	width: 98.3157895%;
 	top:100px;
 	left:0px;
+	color: white;
+	background-color:#FF6633;
+	/*margin-right: 1025px;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 8px;
 
 }
 .editors-choice{
