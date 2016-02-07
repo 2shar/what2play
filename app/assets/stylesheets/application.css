@@ -19,7 +19,7 @@
 a{
 	color:black;
 }
-a.navlink{
+.navlink{
 	color:#FFFFFF;
 	font-size: 30px;
 	text-decoration: none;
@@ -29,9 +29,18 @@ a.navlink{
 	font-family: 'Inconsolata';
 }
 
+.navlink input{
+	height: 20px;
+background: #FFFFFF;
+border-radius: 10px;
+margin-left: 0px;
+padding: 0px;
+}
 
-
-
+form.navlink{
+	padding-left:0px;
+	padding-top:0px;
+}
 
 
 
