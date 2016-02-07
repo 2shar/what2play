@@ -30,6 +30,7 @@ a{
 	padding-right:10px;
 }
 
+
 .navlink input{
 	height: 30px;
 background: #FFFFFF;
@@ -97,6 +98,23 @@ body{
 .editors-choice{
 	width:475px;
 	position:relative;
+}
+.editors-choice a.play-now{
+
+	position:absolute;
+	width: 27%;
+	bottom:24px;
+	right:0px;
+	color:#333333;
+	background-color:#FFFFFF;
+	/*margin-right: 1025px;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 8px;
+	opacity:0.85;
+	text-align: right;
+	text-decoration:none;
+	font-size:20px;
 }
 
 
