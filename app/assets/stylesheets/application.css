@@ -69,8 +69,15 @@ body{
 	padding: 0;
 	background: #FFFFFF;
 	color:black;
-}
 
+}
+.container{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	width:1170px;
+
+}
 
 .editors-choice img{
 	margin-top: 120px;
@@ -103,7 +110,7 @@ body{
 
 	position:absolute;
 	width: 27%;
-	bottom:24px;
+	bottom:60px;
 	right:0px;
 	color:#333333;
 	background-color:#FFFFFF;
@@ -123,4 +130,22 @@ body{
 	width: 200px;
 	height: 50px;
 }
+
+.editors-choice-caption{
+background-color:#FFCC66;
+color:#FFFFFF;
+padding-left:5px;
+padding-top:5px;
+padding-bottom:5px;
+
+
+}
+
+
+
+
+
+
+
+
 

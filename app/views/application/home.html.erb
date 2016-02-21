@@ -1,35 +1,41 @@
 <nav>
-<a href="" class="navlink"> SUGGESTIONS</a>
-<a href="" class="navlink"> TUTORIALS</a>
-<a href="" class="navlink"> ABOUT US</a>
+  <a href="" class="navlink"> SUGGESTIONS</a>
+  <a href="" class="navlink"> TUTORIALS</a>
+  <a href="" class="navlink"> ABOUT US</a>
 
-<a href="" class="search navlink">
- 	  <i class="fa fa-search"> </i> 	</a>
+  <a href="" class="search navlink">
+    <i class="fa fa-search"> </i> 	</a>
 
-<form action="" class="navlink">
-<input name="search" placeholder="CAN'T FIND YOUR FAV GAME? ">
+    <form action="" class="navlink">
+      <input name="search" placeholder="CAN'T FIND YOUR FAV GAME? ">
 
-</form>
+    </form>
 
-<div class="login">
-  <a href="/login" class="navlink"> LOGIN</a>
-  <a href="" class="navlink"> SIGN UP</a>
-</div>
+    <div class="login">
+      <a href="/login" class="navlink"> LOGIN</a>
+      <a href="" class="navlink"> SIGN UP</a>
+    </div>
 
-</nav>
-
-
+  </nav>
 
 
-<div class="editors-choice">
-  <img src="<%= @game.pic%>">
-  <h3>Editor's Choice</h3>
-  <a href="<%= @game.link%>" class="play-now">Play it NOW!</a>
-</div>
-<h4><%= @game.caption%></h4>
+  <div class="container">
 
-<!-- <i class="fa fa-spinner fa-pulse"></i> -->
+    <div class="editors-choice">
+      <img src="<%= @game.pic%>">
+      <h3>Editor's Choice</h3>
+      <a href="<%= @game.link%>" class="play-now">Play it NOW!</a>
+       <h4 class="editors-choice-caption"><%= @game.caption%></h4>
+    </div>
 
-<br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<p>©2016</p>
+
+    <!-- <i class="fa fa-spinner fa-pulse"></i> -->
+
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p>©2016</p>
+
+
+
+  </div>
+
