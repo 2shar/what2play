@@ -29,7 +29,9 @@ a{
 	font-family: 'Inconsolata';
 	padding-right:10px;
 }
-
+.navprofile{
+	font-size: 10px;
+}
 
 .navlink input{
 	height: 20px;
