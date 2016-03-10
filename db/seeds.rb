@@ -20,17 +20,18 @@
     name:"Agar.io",
     link:"http://agar.io",
     pic:"http://www.gamezebo.com/wp-content/uploads/2015/07/agariofeat.jpg",
-
+    caption:"This is a test. Btw this game is horrible."
   },
   {name:"Tank Trouble",
     link:"https://tanktrouble.com/",
-    pic:"http://multihry.cz/miniatury/tank-trouble.jpg"
+    pic:"http://multihry.cz/miniatury/tank-trouble.jpg",
+    caption:"Tank Trouble is a dissipointment to the entire universe."
     },
     {
       name:"Fortz",
       link:"http://www.gamesonly.com/multiplayer-games/fortz.html",
-      pic:"http://img.crazygames.com/fortz.gif"
-
+      pic:"http://img.crazygames.com/fortz.gif",
+      caption:"I truly wish the creator never created this game."
     }
  ]
   Game.destroy_all
@@ -39,6 +40,7 @@
     g.name = thing[:name]
     g.link = thing[:link]
     g.pic = thing[:pic]
+    g.caption = thing[:caption]
     g.save
   end
 
