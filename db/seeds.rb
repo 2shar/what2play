@@ -23,12 +23,12 @@
   },
   {name:"Tank Trouble",
     link:"https://tanktrouble.com/",
-    pic:"http://cache.hackedfreegames.com/uploads/games/pictures/998/p5TWU0D1NYV45.jpg"
+    pic:"http://multihry.cz/miniatury/tank-trouble.jpg"
     },
     {
       name:"Fortz",
       link:"http://www.gamesgames.com/game/fortz",
-      pic:"http://www.gamesonly.com/games/swf43/screenshot.png"
+      pic:"http://img.crazygames.com/fortz.gif"
 
     }
  ]

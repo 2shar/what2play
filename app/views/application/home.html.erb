@@ -1,7 +1,7 @@
 <nav>
   <!-- <a href="" class="navlink"> ⌂</a> -->
   <span class="home-button"><a href="" class="navlink">
-      <i class="fa fa-home"></i>
+    <i class="fa fa-home"></i>
   </a> </span>
   <a href="" class="navlink"> SUGGESTIONS</a>
   <a href="" class="navlink"> TUTORIALS</a>
@@ -16,16 +16,16 @@
     </form>
 
     <div class="login">
-      
-   
+
+
       <%if current_user.present?%>
-        <a data-method="delete" href="/users/sign_out" class="navlink"> SIGN OUT</a>
-        <a href="/users/edit" class="navlink navprofile"><%= current_user.email %></a>
+      <a data-method="delete" href="/users/sign_out" class="navlink"> SIGN OUT</a>
+      <a href="/users/edit" class="navlink navprofile"><%= current_user.email %></a>
       <%else %>
-        <a href="/users/sign_in" class="navlink"> LOGIN</a>
-        <a href="/users/sign_up" class="navlink"> SIGN UP</a>
+      <a href="/users/sign_in" class="navlink"> LOGIN</a>
+      <a href="/users/sign_up" class="navlink"> SIGN UP</a>
       <% end %>
-      
+
     </div>
 
   </nav>
@@ -33,12 +33,37 @@
 
   <div class="container">
 
+
+
+    <div id="editors-choice-carousel" class="owl-carousel">
+
+<%Game.all.each do |game|%>
     <div class="editors-choice">
-      <img src="<%= @game.pic%>">
+      <img src="<%= game.pic%>">
       <h3>Editor's Choice</h3>
-      <a href="<%= @game.link%>" class="play-now">Play it NOW!</a>
-       <h4 class="editors-choice-caption"><%= @game.caption%></h4>
+      <a href="<%= game.link%>" class="play-now">Play it NOW!</a>
+      <h4 class="editors-choice-caption"><%= game.caption%></h4>
     </div>
+    <% end -%>
+      <!-- <div>  </div>
+      <div>  </div>
+      <div>  </div>
+      <div>  </div>
+      <div>  </div>
+      <div>  </div> -->
+
+    </div>
+    <script type="text/javascript">$(document).ready(function() {
+
+      $("#editors-choice-carousel").owlCarousel({
+        autoPlay: true,
+        singleItem: true,
+        stopOnHover: true,
+
+
+      });
+
+    });</script>
 
 
     <!-- <i class="fa fa-spinner fa-pulse"></i> -->
