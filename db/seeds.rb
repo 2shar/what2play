@@ -19,7 +19,8 @@
   {
     name:"Agar.io",
     link:"http://agar.io",
-    pic:"http://www.gamezebo.com/wp-content/uploads/2015/07/agariofeat.jpg"
+    pic:"http://www.gamezebo.com/wp-content/uploads/2015/07/agariofeat.jpg",
+
   },
   {name:"Tank Trouble",
     link:"https://tanktrouble.com/",
@@ -27,7 +28,7 @@
     },
     {
       name:"Fortz",
-      link:"http://www.gamesgames.com/game/fortz",
+      link:"http://www.gamesonly.com/multiplayer-games/fortz.html",
       pic:"http://img.crazygames.com/fortz.gif"
 
     }
