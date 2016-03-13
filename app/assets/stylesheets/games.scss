@@ -1,3 +1,71 @@
 // Place all the styles related to the games controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+margin-left:25px;
+color:black;
+}
+.editors-choice-caption-games{
+background-color:#FFCC66;
+color:#FFFFFF;
+padding-left: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
+height:70px;
+/*border-radius:10px;*/
+
+
+}
+
+
+.editors-choice-games{
+width: 1170px;
+margin-left: auto;
+margin-right: auto;
+height: 250px;
+
+}
+.game-list-item img{
+  width: 100%;
+  height: 175px;
+}
+.title-game{
+  position:absolute;
+  width: 27%;
+  bottom:90px;
+  right:0px;
+  color:#333333;
+  background-color:#FFFFFF;
+  /*margin-right: 1025px;*/
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  opacity:0.85;
+  text-align: right;
+  text-decoration:none;
+  font-size:20px;
+}
+
+.game-list-item h3 {
+  position:absolute;
+  width: 98.3157895%;
+  top:100px;
+  left:0px;
+  color: white;
+  background-color:#FF6633;
+  /*margin-right: 1025px;*/
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 8px;
+
+}
+.game-list-item{
+display:inline-block;
+vertical-align: top;
+width: 245px;
+margin: 25px;
+}
+
+
+

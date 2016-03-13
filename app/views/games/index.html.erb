@@ -1,8 +1,33 @@
+
+<br>
+<br>
+<br><br><br>
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Games</h1>
+<h1 class="games-title">Games</h1>
+<hr>
+<div class="editors-choice-games" href="/">
+<%Game.all.each do |game|%>
+    <div class="game-list-item">
 
-<table>
+      <div class="img-container">
+
+      <img src="<%= game.pic%>">
+      <h3>Editor's Choice</h3>
+      <a class="title-game" ><%= game.name%></a>
+</div>
+
+      <h4 class="editors-choice-caption-games"><%= game.caption%></h4>
+      </div>
+      <% end %>
+
+
+
+
+
+
+
+<!-- <table>
   <thead>
     <tr>
       <th>Name</th>
@@ -24,9 +49,9 @@
         <td><%= link_to 'Edit', edit_game_path(game) %></td>
         <td><%= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    <% end %> -->
+ <!--  </tbody>
+</table> -->
 
 <br>
 
