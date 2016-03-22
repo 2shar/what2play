@@ -4,16 +4,16 @@
 <br><br><br>
 <p id="notice"><%= notice %></p>
 
-<h1 class="games-title">Games</h1>
+<h1 class="games-title">GAMES</h1>
 <hr>
 <div class="editors-choice-games" href="/">
-<%Game.all.each do |game|%>
+<%Game.where(:editors_choice => true).each do |game|%>
     <div class="game-list-item">
 
       <div class="img-container">
 
       <img src="<%= game.pic%>">
-      <h3>Editor's Choice</h3>
+      <h3 class="tiny-banner">Editor's Choice</h3>
       <a class="title-game" ><%= game.name%></a>
 </div>
 
