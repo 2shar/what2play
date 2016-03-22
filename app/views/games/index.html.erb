@@ -6,20 +6,22 @@
 
 <h1 class="games-title">GAMES</h1>
 <hr>
-<div class="editors-choice-games" href="/">
-<%Game.where(:editors_choice => true).each do |game|%>
+<div class="editors-choice-games">
+  <%Game.where(:editors_choice => true).each do |game|%>
+  <a href="/games/<%=game.id%>">
     <div class="game-list-item">
 
       <div class="img-container">
 
-      <img src="<%= game.pic%>">
-      <h3 class="tiny-banner">Editor's Choice</h3>
-      <a class="title-game" ><%= game.name%></a>
-</div>
+        <img src="<%= game.pic%>">
+        <h3 class="tiny-banner">Editor's Choice</h3>
+        <div class="title-game" ><%= game.name%></div>
+      </div>
 
       <h4 class="editors-choice-caption-games"><%= game.caption%></h4>
-      </div>
-      <% end %>
+    </div>
+  </a>
+  <% end %>
 
 
 
@@ -49,7 +51,7 @@
         <td><%= link_to 'Edit', edit_game_path(game) %></td>
         <td><%= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
-    <% end %> -->
+      <% end %> -->
  <!--  </tbody>
 </table> -->
 
