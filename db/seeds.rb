@@ -20,8 +20,12 @@
     name:"Agar.io",
     link:"http://agar.io",
     pic:"http://www.gamezebo.com/wp-content/uploads/2015/07/agariofeat.jpg",
+<<<<<<< Updated upstream
     caption:"This is a test. Btw this game is horrible.",
     editors_choice:true
+=======
+    tutorial: "In this massively multiplayer game, your goal is to grow as big as you can. The bigger you are, the slower you get. Avoid other people larger than you, but try to eat smaller dots. Use the mouse to move around, and press space to split. When you split, you are more vulnerable to others, but you can move faster, so its great for escape. You still control both of your halves, and eventually, they will merge back together. Also, when you use the space bar, it sends one of your two halves flying forwards. You can use this to eat someone who's smaller than you. Just make sure you're big enough to do this. Press the \"w\" key to eject mass. It takes a tiny piece of you and throws it out. It's not as useful as splitting, but you can use it to gain trust with other people, since there is no way to communicate with others. Watch out for spikes. They are randomly found around the field, and they will make you split into a bunch of tiny pieces if you are big enough."
+>>>>>>> Stashed changes
   },
   {name:"Tank Trouble",
     link:"https://tanktrouble.com/",

@@ -1,4 +1,37 @@
 
+<nav>
+  <!-- <a href="" class="navlink"> ⌂</a> -->
+  <span class="home-button"><a href="" class="navlink">
+      <i class="fa fa-home"></i>
+  </a> </span>
+  <a href="/suggestions" class="navlink"> SUGGESTIONS</a>
+  <a href="" class="navlink"> TUTORIALS</a>
+  <a href="" class="navlink"> ABOUT US</a>
+
+  <a href="" class="search navlink">
+    <i class="fa fa-search"> </i> 	</a>
+
+    <form action="" class="navlink">
+      <input name="search" placeholder="CAN'T FIND YOUR FAV GAME? ">
+
+    </form>
+
+    <div class="login">
+      
+   
+      <%if current_user.present?%>
+        <a data-method="delete" href="/users/sign_out" class="navlink"> SIGN OUT</a>
+        <a href="/users/edit" class="navlink navprofile"><%= current_user.email %></a>
+      <%else %>
+        <a href="/users/sign_in" class="navlink"> LOGIN</a>
+        <a href="/users/sign_up" class="navlink"> SIGN UP</a>
+      <% end %>
+      
+    </div>
+
+  </nav>
+
+
 
   <div class="container">
 
