@@ -50,12 +50,13 @@ form.navlink{
 
 }
 .login{
-	float:right;
-	padding-right: 50px;
+display: inline-block;
+/*	float:right;
+	padding-right: 50px;*/
 }
-.login .navlink{
+/*.login .navlink*//*{
 	padding-top: 40px;
-}
+}*/
 
 
 
@@ -175,6 +176,70 @@ font-family: 'Coming Soon', cursive;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1044px) {
+  .navlink {
+    font-size: 29px;
+  }
+}
+@media (max-width: 1014px) {
+  .navlink {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1084px) {
+  .navlink {
+    font-size: 27px;
+  }
+}
+@media (max-width: 1054px) {
+  .navlink {
+    font-size: 26px;
+  }
+}
+@media (max-width: 1225px) {
+  .navlink {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1094px) {
+  .navlink {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1074px) {
+  .navlink {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 970px) {
+  .navlink {
+  	display:none;
+  }
+}
 
 
 
