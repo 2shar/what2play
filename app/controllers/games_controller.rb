@@ -5,7 +5,7 @@ class GamesController < ApplicationController
   # GET /games.json
   def index
     if params[:search].present?
-      @games = Game.where("name LIKE ?", "%#{params[:search]}%")
+      @games = Game.where("lower(name) LIKE ?", "%#{params[:search].downcase}%")
     else
       @games = Game.all
     end
