@@ -21,6 +21,8 @@ ActiveRecord::Schema.define(version: 20160322201536) do
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
     t.string   "link"
+    t.string   "videolink"
+    t.string   "tutorial"
     t.boolean  "editors_choice"
   end
 
