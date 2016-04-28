@@ -3,23 +3,19 @@
 <br><br><br>
 
 
-<h1 class="games-title"><%= @game.spaced_name %></h1>
+<h1 class="games-title-show"><%= @game.spaced_name %></h1>
+
+<div class="pic-games-show"><img src="<%= @game.pic%>">
+</div>
 
 
 
 
-<p id="notice"><%= notice %></p>
 
 
-<p>
-  <strong>Name:</strong>
-  <%= @game.name %>
-</p>
-
-<p>
-  <strong>Caption:</strong>
+<div class="games-show-caption"><p>
   <%= @game.caption %>
-</p>
+</p></div>
 
 <p>
   <strong>Summary:</strong>

@@ -81,13 +81,48 @@ position: relative;
 text-align: center;
 font-family: 'Coming Soon', cursive;
 font-size: 43px;
-margin-bottom: 5px;
+margin-bottom: 0px;
+color: #000000;
+margin-top: 0px;
+padding-top: 20px;
+padding-bottom:20px;
+
+
+}
+.games-title-show{
+text-align: center;
+font-family: 'Coming Soon', cursive;
+font-size: 43px;
+margin-bottom: 0px;
+color: #000000;
+margin-top: 0px;
+padding-top: 25px;
+padding-bottom:20px;
+
+
+}
+
+.pic-games-show {
+  height: 300px;
+  overflow: hidden;
 
 }
 
 
-
-
+.pic-games-show img{
+  margin-top:-190px;
+  width:100%;
+}
+ .games-show-caption {
+  background-color:#FFCC66;
+color:#FFFFFF;
+padding-left: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+/*border-radius:10px;*/
+font-family: 'Coming Soon', cursive;
+font-size: 20px;
+ }
 
 
 
