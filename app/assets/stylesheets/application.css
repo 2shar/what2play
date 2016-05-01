@@ -23,12 +23,13 @@ a{
 	color:#FFFFFF;
 	font-size: 30px;
 	text-decoration: none;
-	padding-top: 22px;
+	padding-top: 10px;
 	display:inline-block;
 	padding-left:30px;
 	font-family: 'Inconsolata';
 	padding-right:10px;
 /*	padding-bottom:100px;*/
+vertical-align:middle;
 }
 .navprofile{
 	font-size: 10px;
@@ -42,6 +43,7 @@ margin-left: 0px;
 padding: 0px;
 width:175px;
 border-color:#FFFFFF;
+margin-bottom:30px;
 }
 
 form.navlink{
@@ -174,6 +176,14 @@ font-family: 'Coming Soon', cursive;
 
 }
 
+.triple-line{
+	display:none;
+	font-size:28px;
+}
+
+.home-button img{
+	width:175px;
+}
 
 
 
@@ -198,47 +208,50 @@ font-family: 'Coming Soon', cursive;
 
 
 
-
-@media (max-width: 1044px) {
+@media (max-width: 1302px) {
   .navlink {
     font-size: 29px;
   }
 }
-@media (max-width: 1014px) {
-  .navlink {
-    font-size: 28px;
-  }
-}
-@media (max-width: 1084px) {
+@media (max-width: 1282px) {
   .navlink {
     font-size: 27px;
   }
 }
-@media (max-width: 1054px) {
-  .navlink {
-    font-size: 26px;
-  }
-}
-@media (max-width: 1225px) {
+@media (max-width: 1238px) {
   .navlink {
     font-size: 25px;
   }
 }
-@media (max-width: 1094px) {
+@media (max-width: 1200px) {
   .navlink {
     font-size: 24px;
+    padding-right: 5px;
   }
 }
 
-@media (max-width: 1074px) {
-  .navlink {
-    font-size: 20px;
-  }
-}
 
-@media (max-width: 970px) {
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1135px) {
   .navlink {
   	display:none;
+  }
+  .triple-line{
+  	display:inline-block;
+  	font-size:45px;
+  	margin-top:5px;
+  	vertical-align: middle;
   }
 }
 
