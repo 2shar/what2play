@@ -75,6 +75,7 @@ body{
 
 	background: #FFFFFF;
 	margin-left: 8px;
+	padding-top: 85px;
 
 
 }
@@ -87,7 +88,7 @@ body{
 }
 
 .editors-choice img{
-	margin-top: 120px;
+	margin-top: 20px;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 20px;
@@ -100,7 +101,7 @@ body{
 .editors-choice h3 {
 	position:absolute;
 	width: 98.3157895%;
-	top:100px;
+	top: 0px;
 	left:0px;
 	color: white;
 	background-color:#FF6633;
