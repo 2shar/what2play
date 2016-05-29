@@ -212,6 +212,11 @@ font-family: 'Coming Soon', cursive;
   margin-bottom: 1px;
   margin-left:7px;
 
+
+ }
+
+ .drop-search{
+  display: inline-block;
  }
 
 .drop-down-container{
