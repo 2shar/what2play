@@ -28,9 +28,9 @@ ActiveRecord::Schema.define(version: 20160501210147) do
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
     t.string   "link"
-    t.string   "videolink"
-    t.string   "tutorial"
     t.boolean  "editors_choice"
+    t.string   "videolink"
+    t.text     "tutorial"
   end
 
   create_table "tags", force: :cascade do |t|

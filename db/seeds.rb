@@ -39,6 +39,13 @@
       pic:"http://img.crazygames.com/fortz.gif",
       caption:"I truly wish the creator never created this game.",
     editors_choice:true
+    },
+    {
+      name:"Slither.io",
+      link:"http://slither.io/",
+      pic:"http://freesoftapk.com/wp-content/uploads/2016/04/Slither-gameplay-android.jpg",
+      caption:"It's SLITHER DOT IO not slitherio",
+    editors_choice:true
     }
  ]
   Game.destroy_all

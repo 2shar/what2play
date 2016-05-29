@@ -43,8 +43,22 @@
       <% end %>
 
 
+ </div>
 
-    </div>
+
+<div class="drop-down-container">
+  <div class="drop-down"> <a href="/suggestions"> SUGGESTIONS</a>
+  </div>
+<div class="drop-down"> <a href="/games"> TUTORIALS</a></div>
+<div class="drop-down"> <a href="/games"> ABOUT US</a></div>
+<div class="drop-down"> <a href="/games"> SEARCH</a> <input class="search-drop" name="search" placeholder="CAN'T FIND YOUR FAV GAME? "></div>
+<div class="drop-down"> <a href="/games"> LOGIN</a></div>
+<div class="drop-down"> <a href="/games"> SIGN UP</a></div>
+
+</div>
+
+
+
 
   </nav>
 
@@ -66,7 +80,13 @@
 
 <script type="text/javascript">
 $('.triple-line').click(function(){
-  alert('You clicked me.')
+  if($('.drop-down-container').css('display')=='none'){
+    $('.drop-down-container').slideDown();
+  }
+  else{
+    $('.drop-down-container').slideUp();
+  }
+
 })</script>
 
 
